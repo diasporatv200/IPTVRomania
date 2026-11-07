@@ -35,12 +35,12 @@
                 <span>Televiziune<span class="text-green-500">DIASPORA.com</span></span>
             </a>
 
-            <!-- Navigație Desktop -->
+             <!-- Navigație Desktop -->
             <nav class="hidden lg:flex items-center gap-8 text-sm font-semibold text-gray-400">
-                <a href="#dispozitive" class="hover:text-green-400 transition">Dispozitive</a>
-                <a href="#preturi" class="hover:text-green-400 transition">Abonamente</a>
-                <a href="#canale" class="hover:text-green-400 transition">Canale</a>
-                <a href="#faq" class="hover:text-green-400 transition">Întrebări</a>
+                <a href="index.html" class="hover:text-green-400 transition">Acasă</a>
+                <a href="index.html#preturi" class="hover:text-green-400 transition">Abonamente</a>
+                <a href="tutorial.html" class="text-green-400 font-bold border-b-2 border-green-500 pb-1">Cum Funcționează?</a>
+                <a href="index.html#faq" class="hover:text-green-400 transition">Întrebări frecvente</a>
             </nav>
 
             <div class="flex items-center gap-3">
@@ -60,10 +60,10 @@
 
         <!-- Meniu Dropdown Mobil -->
         <div id="mobileMenu" class="hidden lg:hidden bg-gray-900 border-b border-gray-800 px-6 py-4 space-y-3">
-            <a href="#dispozitive" class="mobile-link block text-gray-300 font-semibold py-1 hover:text-green-400">Dispozitive</a>
-            <a href="#preturi" class="mobile-link block text-gray-300 font-semibold py-1 hover:text-green-400">Abonamente</a>
-            <a href="#canale" class="mobile-link block text-gray-300 font-semibold py-1 hover:text-green-400">Canale</a>
-            <a href="#faq" class="mobile-link block text-gray-300 font-semibold py-1 hover:text-green-400">Întrebări frecvente</a>
+            <a href="index.html" class="mobile-link block text-gray-300 font-semibold py-1 hover:text-green-400">Acasă</a>
+            <a href="index.html#preturi" class="mobile-link block text-gray-300 font-semibold py-1 hover:text-green-400">Abonamente</a>
+            <a href="tutorial.html" class="mobile-link block text-green-400 font-bold py-1">Cum Funcționează?</a>
+            <a href="index.html#faq" class="mobile-link block text-gray-300 font-semibold py-1 hover:text-green-400">Întrebări frecvente</a>
             <a href="https://wa.me/447417323103?text=Buna%20ziua,%20doresc%20un%20test%20gratuit" target="_blank"
                class="block text-center w-full bg-green-500 text-black font-bold py-2.5 rounded-xl text-sm mt-2 shadow-md">
                 <i class="fa-brands fa-whatsapp mr-1"></i> Cere Test Gratuit 24H
@@ -155,36 +155,58 @@
         </div>
     </section>
     
-    <!-- Compatibilitate Dispozitive -->
+<!-- Compatibilitate Dispozitive -->
     <section id="dispozitive" class="py-8 sm:py-12 px-4 sm:px-6 max-w-7xl mx-auto">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 text-center">
             <h2 class="text-2xl sm:text-3xl font-extrabold text-white mb-3">Funcționează pe orice dispozitiv</h2>
             <p class="text-gray-400 mb-8 sm:mb-10 max-w-xl mx-auto text-xs sm:text-sm">Nu ai nevoie de antenă parabolică. Ai nevoie doar de o conexiune la internet.</p>
+            
+            <!-- Chenare interactive către tutorial.html -->
             <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3 sm:gap-6">
-                <div class="p-4 sm:p-5 rounded-xl bg-gray-900 border border-gray-800 flex flex-col items-center justify-center">
+                <!-- Smart TV -->
+                <a href="tutorial.html" class="p-4 sm:p-5 rounded-xl bg-gray-900 border border-gray-800 flex flex-col items-center justify-center transition hover:border-green-500 hover:shadow-[0_0_20px_rgba(34,197,94,0.35)]">
                     <i class="fa-solid fa-tv text-2xl sm:text-3xl text-green-400 mb-2"></i>
                     <p class="text-xs font-semibold text-gray-300">Smart TV</p>
-                </div>
-                <div class="p-4 sm:p-5 rounded-xl bg-gray-900 border border-gray-800 flex flex-col items-center justify-center">
+                </a>
+                
+                <!-- Amazon Firestick -->
+                <a href="tutorial.html" class="p-4 sm:p-5 rounded-xl bg-gray-900 border border-gray-800 flex flex-col items-center justify-center transition hover:border-green-500 hover:shadow-[0_0_20px_rgba(34,197,94,0.35)]">
                     <i class="fa-brands fa-amazon text-2xl sm:text-3xl text-green-400 mb-2"></i>
                     <p class="text-xs font-semibold text-gray-300">Amazon Firestick</p>
-                </div>
-                <div class="p-4 sm:p-5 rounded-xl bg-gray-900 border border-gray-800 flex flex-col items-center justify-center">
+                </a>
+                
+                <!-- Android TV / Box -->
+                <a href="tutorial.html" class="p-4 sm:p-5 rounded-xl bg-gray-900 border border-gray-800 flex flex-col items-center justify-center transition hover:border-green-500 hover:shadow-[0_0_20px_rgba(34,197,94,0.35)]">
                     <i class="fa-brands fa-android text-2xl sm:text-3xl text-green-400 mb-2"></i>
                     <p class="text-xs font-semibold text-gray-300">Android TV / Box</p>
-                </div>
-                <div class="p-4 sm:p-5 rounded-xl bg-gray-900 border border-gray-800 flex flex-col items-center justify-center">
+                </a>
+                
+                <!-- Apple TV / iOS -->
+                <a href="tutorial.html" class="p-4 sm:p-5 rounded-xl bg-gray-900 border border-gray-800 flex flex-col items-center justify-center transition hover:border-green-500 hover:shadow-[0_0_20px_rgba(34,197,94,0.35)]">
                     <i class="fa-brands fa-apple text-2xl sm:text-3xl text-green-400 mb-2"></i>
                     <p class="text-xs font-semibold text-gray-300">Apple TV / iOS</p>
-                </div>
-                <div class="p-4 sm:p-5 rounded-xl bg-gray-900 border border-gray-800 flex flex-col items-center justify-center">
+                </a>
+                
+                <!-- Telefon / Tabletă -->
+                <a href="tutorial.html" class="p-4 sm:p-5 rounded-xl bg-gray-900 border border-gray-800 flex flex-col items-center justify-center transition hover:border-green-500 hover:shadow-[0_0_20px_rgba(34,197,94,0.35)]">
                     <i class="fa-solid fa-mobile-screen-button text-2xl sm:text-3xl text-green-400 mb-2"></i>
                     <p class="text-xs font-semibold text-gray-300">Telefon / Tabletă</p>
-                </div>
-                <div class="p-4 sm:p-5 rounded-xl bg-gray-900 border border-gray-800 flex flex-col items-center justify-center">
+                </a>
+                
+                <!-- PC / Laptop -->
+                <a href="tutorial.html" class="p-4 sm:p-5 rounded-xl bg-gray-900 border border-gray-800 flex flex-col items-center justify-center transition hover:border-green-500 hover:shadow-[0_0_20px_rgba(34,197,94,0.35)]">
                     <i class="fa-solid fa-desktop text-2xl sm:text-3xl text-green-400 mb-2"></i>
                     <p class="text-xs font-semibold text-gray-300">PC / Laptop</p>
-                </div>
+                </a>
+            </div>
+
+            <!-- Buton Tutorial Instalare -->
+            <div class="mt-8 sm:mt-10">
+                <a href="tutorial.html"
+                   class="inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-400 text-black font-bold px-8 py-3.5 sm:py-4 rounded-xl transition transform hover:-translate-y-0.5 shadow-lg shadow-green-500/30 text-center text-sm sm:text-base">
+                    <i class="fa-solid fa-circle-play text-lg"></i>
+                    <span>Tutorial Instalare</span>
+                </a>
             </div>
         </div>
     </section>
@@ -384,10 +406,14 @@
         </div>
     </section>
 
-    <!-- FAQ -->
+<!-- FAQ -->
     <section id="faq" class="py-12 sm:py-16 px-4 sm:px-6 max-w-4xl mx-auto">
         <h2 class="text-2xl sm:text-3xl font-extrabold text-white text-center mb-8 sm:mb-10">Întrebări Frecvente</h2>
         <div class="space-y-4">
+            <div class="p-5 rounded-xl bg-gray-900 border border-gray-800">
+                <h4 class="font-bold text-white mb-2 text-sm sm:text-base">Pot folosi serviciul pe mai multe televizoare?</h4>
+                <p class="text-xs sm:text-sm text-gray-400">Sigur, putem oferi conexiuni multiple, pretul celei de-a doua conexiune fiind redus cu 50%.</p>
+            </div>
             <div class="p-5 rounded-xl bg-gray-900 border border-gray-800">
                 <h4 class="font-bold text-white mb-2 text-sm sm:text-base">De ce viteză de internet am nevoie?</h4>
                 <p class="text-xs sm:text-sm text-gray-400">Pentru canalele HD este recomandată o conexiune stabilă de minim 30 Mbps, iar pentru posturile 4K recomandăm cel puțin 100 Mbps.</p>
